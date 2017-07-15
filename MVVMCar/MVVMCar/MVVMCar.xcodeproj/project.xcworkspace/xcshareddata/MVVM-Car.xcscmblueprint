@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7BA860BE905C3FDA4AD9BF7DE2884D9B15239AB3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "22E91716AEAA2B267B4B03E0451ABD81B63941F8" : 9223372036854775807,
+    "7BA860BE905C3FDA4AD9BF7DE2884D9B15239AB3" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5AB44CEC-43B6-4528-A40A-EE19B2B94DE7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "22E91716AEAA2B267B4B03E0451ABD81B63941F8" : "..",
+    "7BA860BE905C3FDA4AD9BF7DE2884D9B15239AB3" : "MVVM-Car\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MVVM-Car",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MVVM-Car\/MVVM-Car.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pradeepmisra81\/Architecture_DesignPatterns.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "22E91716AEAA2B267B4B03E0451ABD81B63941F8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pradeepmisra81\/TestCar.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7BA860BE905C3FDA4AD9BF7DE2884D9B15239AB3"
+    }
+  ]
+}
