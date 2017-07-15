@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>TestCar.xcscheme</key>
+		<key>MVVMCar.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,6 +12,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>495281E81F1AA02E0030D09D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>49924D901EF40236008E9962</key>
 		<dict>
 			<key>primary</key>

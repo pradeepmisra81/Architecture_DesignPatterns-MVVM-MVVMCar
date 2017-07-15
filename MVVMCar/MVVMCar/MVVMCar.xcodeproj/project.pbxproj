@@ -16,12 +16,20 @@
 		495281D91F1A73FD0030D09D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495281D71F1A73FD0030D09D /* LaunchScreen.storyboard */; };
 		495281DB1F1A74100030D09D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 495281DA1F1A74100030D09D /* Assets.xcassets */; };
 		495281DD1F1A7A9D0030D09D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 495281DC1F1A7A9D0030D09D /* README.md */; };
-		495281DF1F1A7C730030D09D /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495281DE1F1A7C730030D09D /* Car.swift */; };
-		495281E11F1A7C860030D09D /* CarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495281E01F1A7C860030D09D /* CarView.swift */; };
-		495281E31F1A7C990030D09D /* CarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495281E21F1A7C990030D09D /* CarViewModel.swift */; };
+		495281EC1F1AA02E0030D09D /* MVVMCarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495281EB1F1AA02E0030D09D /* MVVMCarUITests.swift */; };
+		495281F41F1AA1C90030D09D /* CarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495281F31F1AA1C90030D09D /* CarViewModel.swift */; };
+		495281F61F1AA1E20030D09D /* CarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495281F51F1AA1E20030D09D /* CarView.swift */; };
+		495281F81F1AA1F40030D09D /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495281F71F1AA1F40030D09D /* Car.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		495281EE1F1AA02E0030D09D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49924D891EF40236008E9962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49924D901EF40236008E9962;
+			remoteInfo = MVVMCar;
+		};
 		49924DA91EF40236008E9962 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 49924D891EF40236008E9962 /* Project object */;
@@ -41,14 +49,24 @@
 		495281D81F1A73FD0030D09D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MVVMCar/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 		495281DA1F1A74100030D09D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = MVVMCar/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		495281DC1F1A7A9D0030D09D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		495281DE1F1A7C730030D09D /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Car.swift; path = MVVMCar/Model/Car.swift; sourceTree = SOURCE_ROOT; };
-		495281E01F1A7C860030D09D /* CarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CarView.swift; path = MVVMCar/View/CarView.swift; sourceTree = SOURCE_ROOT; };
-		495281E21F1A7C990030D09D /* CarViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CarViewModel.swift; path = MVVMCar/ViewModel/CarViewModel.swift; sourceTree = SOURCE_ROOT; };
+		495281E91F1AA02E0030D09D /* MVVMCarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMCarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		495281EB1F1AA02E0030D09D /* MVVMCarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMCarUITests.swift; sourceTree = "<group>"; };
+		495281ED1F1AA02E0030D09D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		495281F31F1AA1C90030D09D /* CarViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CarViewModel.swift; path = MVVMCar/MVVM/ViewModel/CarViewModel.swift; sourceTree = SOURCE_ROOT; };
+		495281F51F1AA1E20030D09D /* CarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CarView.swift; path = MVVMCar/MVVM/View/CarView.swift; sourceTree = SOURCE_ROOT; };
+		495281F71F1AA1F40030D09D /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Car.swift; path = MVVMCar/MVVM/Model/Car.swift; sourceTree = SOURCE_ROOT; };
 		49924D911EF40236008E9962 /* MVVMCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49924DA81EF40236008E9962 /* MVVMCarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMCarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		495281E61F1AA02E0030D09D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		49924D8E1EF40236008E9962 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -77,10 +95,19 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		495281EA1F1AA02E0030D09D /* MVVMCarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				495281EB1F1AA02E0030D09D /* MVVMCarUITests.swift */,
+				495281ED1F1AA02E0030D09D /* Info.plist */,
+			);
+			path = MVVMCarUITests;
+			sourceTree = "<group>";
+		};
 		4976DABF1F1A285500066EC4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				495281DE1F1A7C730030D09D /* Car.swift */,
+				495281F71F1AA1F40030D09D /* Car.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -88,7 +115,7 @@
 		4976DAC01F1A286800066EC4 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				495281E01F1A7C860030D09D /* CarView.swift */,
+				495281F51F1AA1E20030D09D /* CarView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -96,7 +123,7 @@
 		4976DAC11F1A287600066EC4 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				495281E21F1A7C990030D09D /* CarViewModel.swift */,
+				495281F31F1AA1C90030D09D /* CarViewModel.swift */,
 			);
 			name = ViewModel;
 			sourceTree = "<group>";
@@ -133,6 +160,7 @@
 				495281DC1F1A7A9D0030D09D /* README.md */,
 				49924D931EF40236008E9962 /* MVVMCar */,
 				49924DAB1EF40236008E9962 /* MVVMCarTests */,
+				495281EA1F1AA02E0030D09D /* MVVMCarUITests */,
 				49924D921EF40236008E9962 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -142,6 +170,7 @@
 			children = (
 				49924D911EF40236008E9962 /* MVVMCar.app */,
 				49924DA81EF40236008E9962 /* MVVMCarTests.xctest */,
+				495281E91F1AA02E0030D09D /* MVVMCarUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -171,6 +200,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		495281E81F1AA02E0030D09D /* MVVMCarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 495281F01F1AA02E0030D09D /* Build configuration list for PBXNativeTarget "MVVMCarUITests" */;
+			buildPhases = (
+				495281E51F1AA02E0030D09D /* Sources */,
+				495281E61F1AA02E0030D09D /* Frameworks */,
+				495281E71F1AA02E0030D09D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				495281EF1F1AA02E0030D09D /* PBXTargetDependency */,
+			);
+			name = MVVMCarUITests;
+			productName = MVVMCarUITests;
+			productReference = 495281E91F1AA02E0030D09D /* MVVMCarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		49924D901EF40236008E9962 /* MVVMCar */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49924DB11EF40236008E9962 /* Build configuration list for PBXNativeTarget "MVVMCar" */;
@@ -216,6 +263,11 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "pradeep kumar misra";
 				TargetAttributes = {
+					495281E81F1AA02E0030D09D = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 49924D901EF40236008E9962;
+					};
 					49924D901EF40236008E9962 = {
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
@@ -243,11 +295,19 @@
 			targets = (
 				49924D901EF40236008E9962 /* MVVMCar */,
 				49924DA71EF40236008E9962 /* MVVMCarTests */,
+				495281E81F1AA02E0030D09D /* MVVMCarUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		495281E71F1AA02E0030D09D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		49924D8F1EF40236008E9962 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -270,16 +330,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		495281E51F1AA02E0030D09D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495281EC1F1AA02E0030D09D /* MVVMCarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		49924D8D1EF40236008E9962 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				495281E11F1A7C860030D09D /* CarView.swift in Sources */,
-				495281E31F1A7C990030D09D /* CarViewModel.swift in Sources */,
+				495281F61F1AA1E20030D09D /* CarView.swift in Sources */,
+				495281F41F1AA1C90030D09D /* CarViewModel.swift in Sources */,
 				495281DD1F1A7A9D0030D09D /* README.md in Sources */,
+				495281F81F1AA1F40030D09D /* Car.swift in Sources */,
 				495281CF1F1A73A70030D09D /* CarConstants.swift in Sources */,
 				495281D11F1A73BA0030D09D /* AppDelegate.swift in Sources */,
-				495281DF1F1A7C730030D09D /* Car.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +362,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		495281EF1F1AA02E0030D09D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49924D901EF40236008E9962 /* MVVMCar */;
+			targetProxy = 495281EE1F1AA02E0030D09D /* PBXContainerItemProxy */;
+		};
 		49924DAA1EF40236008E9962 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 49924D901EF40236008E9962 /* MVVMCar */;
@@ -321,6 +394,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		495281F11F1AA02E0030D09D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MVVMCarUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pradeep.MVVMCarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MVVMCar;
+			};
+			name = Debug;
+		};
+		495281F21F1AA02E0030D09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MVVMCarUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pradeep.MVVMCarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MVVMCar;
+			};
+			name = Release;
+		};
 		49924DAF1EF40236008E9962 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -474,6 +573,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		495281F01F1AA02E0030D09D /* Build configuration list for PBXNativeTarget "MVVMCarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495281F11F1AA02E0030D09D /* Debug */,
+				495281F21F1AA02E0030D09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		49924D8C1EF40236008E9962 /* Build configuration list for PBXProject "MVVMCar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
