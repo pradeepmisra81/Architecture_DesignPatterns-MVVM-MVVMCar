@@ -9,15 +9,16 @@
 /* Begin PBXBuildFile section */
 		495281C51F1A73290030D09D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 495281C31F1A73290030D09D /* Info.plist */; };
 		495281C61F1A73290030D09D /* MVVMCarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495281C41F1A73290030D09D /* MVVMCarTests.swift */; };
-		495281C91F1A735F0030D09D /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495281C71F1A73570030D09D /* Car.swift */; };
-		495281CB1F1A737C0030D09D /* CarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495281CA1F1A737C0030D09D /* CarView.swift */; };
-		495281CD1F1A73940030D09D /* CarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495281CC1F1A73940030D09D /* CarViewModel.swift */; };
 		495281CF1F1A73A70030D09D /* CarConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495281CE1F1A73A70030D09D /* CarConstants.swift */; };
 		495281D11F1A73BA0030D09D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495281D01F1A73BA0030D09D /* AppDelegate.swift */; };
 		495281D31F1A73D40030D09D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 495281D21F1A73D40030D09D /* Info.plist */; };
 		495281D61F1A73EC0030D09D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495281D41F1A73EC0030D09D /* Main.storyboard */; };
 		495281D91F1A73FD0030D09D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495281D71F1A73FD0030D09D /* LaunchScreen.storyboard */; };
 		495281DB1F1A74100030D09D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 495281DA1F1A74100030D09D /* Assets.xcassets */; };
+		495281DD1F1A7A9D0030D09D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 495281DC1F1A7A9D0030D09D /* README.md */; };
+		495281DF1F1A7C730030D09D /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495281DE1F1A7C730030D09D /* Car.swift */; };
+		495281E11F1A7C860030D09D /* CarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495281E01F1A7C860030D09D /* CarView.swift */; };
+		495281E31F1A7C990030D09D /* CarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495281E21F1A7C990030D09D /* CarViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,15 +34,16 @@
 /* Begin PBXFileReference section */
 		495281C31F1A73290030D09D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MVVMCarTests/Info.plist; sourceTree = SOURCE_ROOT; };
 		495281C41F1A73290030D09D /* MVVMCarTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MVVMCarTests.swift; path = MVVMCarTests/MVVMCarTests.swift; sourceTree = SOURCE_ROOT; };
-		495281C71F1A73570030D09D /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Car.swift; path = MVVMCar/Car.swift; sourceTree = SOURCE_ROOT; };
-		495281CA1F1A737C0030D09D /* CarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CarView.swift; path = MVVMCar/CarView.swift; sourceTree = SOURCE_ROOT; };
-		495281CC1F1A73940030D09D /* CarViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CarViewModel.swift; path = MVVMCar/CarViewModel.swift; sourceTree = SOURCE_ROOT; };
 		495281CE1F1A73A70030D09D /* CarConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CarConstants.swift; path = MVVMCar/CarConstants.swift; sourceTree = SOURCE_ROOT; };
 		495281D01F1A73BA0030D09D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = MVVMCar/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		495281D21F1A73D40030D09D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MVVMCar/Info.plist; sourceTree = SOURCE_ROOT; };
 		495281D51F1A73EC0030D09D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MVVMCar/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		495281D81F1A73FD0030D09D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MVVMCar/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 		495281DA1F1A74100030D09D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = MVVMCar/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		495281DC1F1A7A9D0030D09D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		495281DE1F1A7C730030D09D /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Car.swift; path = MVVMCar/Model/Car.swift; sourceTree = SOURCE_ROOT; };
+		495281E01F1A7C860030D09D /* CarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CarView.swift; path = MVVMCar/View/CarView.swift; sourceTree = SOURCE_ROOT; };
+		495281E21F1A7C990030D09D /* CarViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CarViewModel.swift; path = MVVMCar/ViewModel/CarViewModel.swift; sourceTree = SOURCE_ROOT; };
 		49924D911EF40236008E9962 /* MVVMCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49924DA81EF40236008E9962 /* MVVMCarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMCarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -78,7 +80,7 @@
 		4976DABF1F1A285500066EC4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				495281C71F1A73570030D09D /* Car.swift */,
+				495281DE1F1A7C730030D09D /* Car.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -86,7 +88,7 @@
 		4976DAC01F1A286800066EC4 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				495281CA1F1A737C0030D09D /* CarView.swift */,
+				495281E01F1A7C860030D09D /* CarView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -94,7 +96,7 @@
 		4976DAC11F1A287600066EC4 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				495281CC1F1A73940030D09D /* CarViewModel.swift */,
+				495281E21F1A7C990030D09D /* CarViewModel.swift */,
 			);
 			name = ViewModel;
 			sourceTree = "<group>";
@@ -128,6 +130,7 @@
 		49924D881EF40236008E9962 = {
 			isa = PBXGroup;
 			children = (
+				495281DC1F1A7A9D0030D09D /* README.md */,
 				49924D931EF40236008E9962 /* MVVMCar */,
 				49924DAB1EF40236008E9962 /* MVVMCarTests */,
 				49924D921EF40236008E9962 /* Products */,
@@ -271,11 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				495281E11F1A7C860030D09D /* CarView.swift in Sources */,
+				495281E31F1A7C990030D09D /* CarViewModel.swift in Sources */,
+				495281DD1F1A7A9D0030D09D /* README.md in Sources */,
 				495281CF1F1A73A70030D09D /* CarConstants.swift in Sources */,
-				495281CB1F1A737C0030D09D /* CarView.swift in Sources */,
-				495281CD1F1A73940030D09D /* CarViewModel.swift in Sources */,
 				495281D11F1A73BA0030D09D /* AppDelegate.swift in Sources */,
-				495281C91F1A735F0030D09D /* Car.swift in Sources */,
+				495281DF1F1A7C730030D09D /* Car.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,9 +420,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TestCar/Info.plist;
+				INFOPLIST_FILE = MVVMCar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pradeep.TestCar;
+				PRODUCT_BUNDLE_IDENTIFIER = pradeep.MVVMCar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -428,9 +432,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TestCar/Info.plist;
+				INFOPLIST_FILE = MVVMCar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pradeep.TestCar;
+				PRODUCT_BUNDLE_IDENTIFIER = pradeep.MVVMCar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -442,9 +446,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = TestCarTests/Info.plist;
+				INFOPLIST_FILE = MVVMCarTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pradeep.TestCarTests;
+				PRODUCT_BUNDLE_IDENTIFIER = pradeep.MVVMCarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -458,9 +462,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = TestCarTests/Info.plist;
+				INFOPLIST_FILE = MVVMCarTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pradeep.TestCarTests;
+				PRODUCT_BUNDLE_IDENTIFIER = pradeep.MVVMCarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVMCar.app/MVVMCar";

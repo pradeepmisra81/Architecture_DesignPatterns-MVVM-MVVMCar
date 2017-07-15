@@ -1,6 +1,6 @@
 //
 //  MVVMCarTests.swift
-//  MVVM-Car
+//  MVVMCar
 //
 //  Created by pradeep kumar misra on 16/06/17.
 //  Copyright © 2017 pradeep kumar misra. All rights reserved.
