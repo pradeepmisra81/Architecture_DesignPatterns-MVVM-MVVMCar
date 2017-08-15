@@ -10,17 +10,24 @@ import XCTest
 @testable import MVVMCar
 
 class MVVMCarTests: XCTestCase {
-    
+    /**
+     This method is called before the invocation of each test method in the class.
+     */
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        // Put setup code here.     
     }
     
+    /**
+     This method is called after the invocation of each test method in the class.
+     */
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
+        // Put teardown code here.         super.tearDown()
     }
     
+    /**
+     Gets called to testCarViewModelWithFerrariF12
+     */
     func testCarViewModelWithFerrariF12() {
         let ferrariF12 = Car(model: "F12", make: "Ferrari", kilowatts: 544, photoURL: "http://auto.ferrari.com/en_EN/wp-content/uploads/sites/5/2013/07/Ferrari-F12berlinetta.jpg")
         
@@ -32,6 +39,9 @@ class MVVMCarTests: XCTestCase {
         XCTAssertEqual(ferrariViewModel.titleText, "Ferrari F12")
     }
     
+    /**
+     Gets called to testCarViewModelWithPaganiZondaF
+     */
     func testCarViewModelWithPaganiZondaF() {
         let panagiZondaF = Car(model: "Zonda F", make: "Pagani", kilowatts: 449, photoURL: "http://storage.pagani.com/view/1024/BIG_zg-4-def.jpg")
         
@@ -43,6 +53,9 @@ class MVVMCarTests: XCTestCase {
         XCTAssertEqual(paganiViewModel.titleText, "Pagani Zonda F")
     }
     
+    /**
+     Gets called to testCarViewModelWithLamborghiniAventador
+     */
     func testCarViewModelWithLamborghiniAventador() {
         let lamborghiniAventador = Car(model: "Aventador", make: "Lamborghini", kilowatts: 522, photoURL: "http://cdn.lamborghini.com/content/models/aventador_lp700-4_roadster/gallery_2013/roadster_21.jpg")
         

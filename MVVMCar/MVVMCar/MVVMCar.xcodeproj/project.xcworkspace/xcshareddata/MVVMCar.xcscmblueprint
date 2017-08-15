@@ -1,22 +1,20 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7BA860BE905C3FDA4AD9BF7DE2884D9B15239AB3",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "433914E3F6168135AEBCAF9E520317C46E63213A",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "22E91716AEAA2B267B4B03E0451ABD81B63941F8" : 9223372036854775807,
     "433914E3F6168135AEBCAF9E520317C46E63213A" : 9223372036854775807,
-    "7BA860BE905C3FDA4AD9BF7DE2884D9B15239AB3" : 9223372036854775807
+    "22E91716AEAA2B267B4B03E0451ABD81B63941F8" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C689FA11-C481-4D98-AB0B-E6C0299A1A8D",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "22E91716AEAA2B267B4B03E0451ABD81B63941F8" : "..\/..",
-    "433914E3F6168135AEBCAF9E520317C46E63213A" : "",
-    "7BA860BE905C3FDA4AD9BF7DE2884D9B15239AB3" : "MVVMCar\/"
+    "433914E3F6168135AEBCAF9E520317C46E63213A" : "Architecture_DesignPatterns-MVVM-MVVMCar\/",
+    "22E91716AEAA2B267B4B03E0451ABD81B63941F8" : ".."
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "MVVMCar",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MVVMCar\/MVVMCar.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MVVMCar\/MVVMCar\/MVVMCar.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pradeepmisra81\/Architecture_DesignPatterns.git",
@@ -27,11 +25,6 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pradeepmisra81\/Architecture_DesignPatterns-MVVM-MVVMCar.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "433914E3F6168135AEBCAF9E520317C46E63213A"
-    },
-    {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pradeepmisra81\/TestCar.git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7BA860BE905C3FDA4AD9BF7DE2884D9B15239AB3"
     }
   ]
 }
